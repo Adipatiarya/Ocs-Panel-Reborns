@@ -1,0 +1,40 @@
+/*
+	Author  : Victor Pardosi
+	Facebook: BukanVbA
+	URL		: www.CoderID.net | www.TheHoster.Net
+	Email	: Admin@TheHoster.Net
+*/
+
+table.tabel {
+	margin:20px auto;
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 0px;
+	border-style: solid solid solid solid;
+	border-color: #0D161B;
+	border-radius:4px;
+	border-collapse: collapse;
+	font-size:12px;
+	background:#fff;
+}
+
+table.tabel tr:nth-of-type(2n + 2) {
+    background-color: #f5f5f5;
+}
+
+table.tabel th {
+	padding: 10px 20px;
+	background:#15242D;
+	padding:8px 16px;
+	color:#fff;
+	text-shadow:1px 0px 0px #000;
+	border-bottom:5px solid #FF9900;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: -0.5px;		
+}
+table.tabel td {
+	padding:10px 10px;	
+	border:1px solid #ccc;
+}
+

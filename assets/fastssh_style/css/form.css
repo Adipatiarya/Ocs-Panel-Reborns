@@ -1,0 +1,182 @@
+/*
+	Author  : Victor Pardosi
+	Facebook: BukanVbA
+	URL		: www.CoderID.net | www.TheHoster.Net
+	Email	: Admin@TheHoster.Net
+*/
+#report{
+	max-width:350px;
+	border-radius:5px;
+	clear:both;
+	padding:20px;
+}
+.form{
+	padding:10px;
+	margin:20px auto;
+	border:1px solid #ccc;
+	border-radius:5px;
+	clear:both;
+}
+.form label{
+	display: block; 
+	float:left;
+	font-size:17;
+	color:#555;
+	font-weight:normal;
+	width: 250px; 
+	text-indent:0;
+}
+.form input{
+	width:60%;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:4px;
+}
+.rg{
+	margin-left:250px;
+}
+.form btn{
+	width:60%;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:4px;
+}
+.form select{
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:4px;
+	min-width:10%;
+}
+.form span{
+	float:right;
+	font-size:17;
+	color:#555;
+	font-weight:bold;	
+}
+.form textarea{
+	width:60%;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:4px;
+	resize:none;
+	height:150px;
+}
+.form input:hover, .form textarea:hover{
+	box-shadow:0 0 3px #ccc;
+}
+.form input[type=submit],.form button{
+	margin-left:250px;
+	min-width:100px;
+	border:1px solid #203C72; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 5px 10px 5px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+	 background-color: #2C539E; background-image: -webkit-gradient(linear, left top, left bottom, from(#2C539E), to(#213E76));
+	 background-image: -webkit-linear-gradient(top, #2C539E, #213E76);
+	 background-image: -moz-linear-gradient(top, #2C539E, #213E76);
+	 background-image: -ms-linear-gradient(top, #2C539E, #213E76);
+	 background-image: -o-linear-gradient(top, #2C539E, #213E76);
+	 background-image: linear-gradient(to bottom, #2C539E, #213E76);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2C539E, endColorstr=#213E76);	
+	clear:right;
+ }
+.form input[type=radio]{
+	width:20px;
+	float:none;
+	border:1px solid #ccc;
+	padding:3px;
+	border-radius:4px;
+	margin:0;
+ } 
+.form input[type=submit]:hover,.form button:hover{
+	 box-shadow:0 0 3px 3px #ccc;
+	 cursor:pointer;
+	 color:#F2BA49;
+	 border:1px solid #16294e;
+	 background-color: #213E76; background-image: -webkit-gradient(linear, left top, left bottom, from(#213E76), to(#203c72));
+	 background-image: -webkit-linear-gradient(top, #213E76, #203c72);
+	 background-image: -moz-linear-gradient(top, #213E76, #203c72);
+	 background-image: -ms-linear-gradient(top, #213E76, #203c72);
+	 background-image: -o-linear-gradient(top, #213E76, #203c72);
+	 background-image: linear-gradient(to bottom, #213E76, #203c72);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#213E76, endColorstr=#203c72);
+}
+.form li{
+	clear:both;
+	padding:5px;
+	position: relative;
+	overflow: hidden;
+}
+li .textdata{
+	
+	overflow: hidden;
+
+}
+
+#notif{
+	font-size:12;
+	text-align:center;
+	background:#1E323E;
+	border:2px solid #15242D;
+	font-weight:bold;
+	padding:6px 0;
+	color:#fff;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.date{
+	font-size:small;font-weight:bold;background:#17993E;color:#fff;padding:4px 8px;border-radius:1px 4px;float:right;margin-right:20px;
+}
+.redtext{
+	font-size:small;color:#B50505;
+}
+.red{
+	font-size:small;font-weight:bold;background:#B50505;color:#fff;padding:4px 8px;border-radius:1px 4px;
+}
+.green{
+	font-size:small;font-weight:bold;background:#17993E;color:#fff;padding:4px 8px;border-radius:1px 4px;
+}
+
+
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 5px 15px 5px 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
